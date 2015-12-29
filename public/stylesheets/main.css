@@ -42,6 +42,7 @@ body {
 .menu-options li a {
 	color: #007f7f;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .menu-options li a:hover {

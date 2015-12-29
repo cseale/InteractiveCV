@@ -1,0 +1,78 @@
+/**
+*
+* Main Style Page
+* Author : Colm Seale
+*
+**/
+
+body {
+  font-family:verdana;
+  margin: 0px;
+}
+
+.container{
+	height:auto;
+}
+
+.menu{
+	border-right: 2px solid #d38d00;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:148px;
+	bottom:0px;
+	padding: 50px;
+    background-color: #012727;
+}
+
+.menu-header{
+	color: #d38d00;
+}
+
+.menu-options{
+	list-style-type: none;
+	-webkit-padding-start: 0px;
+}
+
+.menu-options li {
+	padding: 10px 10px 10px 0px;
+	font-variant: small-caps;
+}
+
+.menu-options li a {
+	color: #007f7f;
+	cursor: pointer;
+}
+
+.menu-options li a:hover {
+	color: #9b6700;
+}
+
+.menu-options li a.active {
+	color: #d38d00;
+}
+
+.details {
+	position:absolute;
+	top:0px;
+	left:250px;
+	right:0px;
+	bottom:0px;
+  	background-color: #ffffff;
+  	overflow-y:scroll;
+}
+
+.contact-me-bar{
+	position: absolute;
+    top: 15px;
+    right: 35px;
+    z-index: 100;
+    color: black;
+    font-variant: small-caps;
+}
+
+
+
+a {
+  color: #00B7FF;
+}

@@ -1,0 +1,42 @@
+/**
+*
+* Summary Style Page
+* Author: Colm Seale
+*
+**/
+
+.summary{
+	text-align: center;
+	vertical-align: middle;
+	padding:75px;
+}
+
+.summary h1{
+	color: #410202;
+	font-size: 32px;
+	font-variant: small-caps;
+}
+
+.summary h4{
+	color: #410202;
+	font-variant: small-caps;
+}
+
+.summary h1:after {
+	content: '';
+    display: block;
+    background: #410202;
+    height: 2px;
+    max-width: 125px;
+    width: 100%;
+    margin: 20 auto;
+}
+
+.summary-paragraph{
+	line-height: 30px;
+	color: #012727;
+}
+
+.img-circle {
+    border-radius: 50%;
+}

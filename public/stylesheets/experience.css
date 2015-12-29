@@ -1,0 +1,46 @@
+/**
+*
+* Experience Styles
+* Author: Colm Seale
+*
+*
+**/
+
+.experience{
+	text-align: center;
+	vertical-align: middle;
+	padding:75px;
+	background-color: #eee3e3;
+}
+
+.experience h1{
+	color: #410202;
+	font-size: 32px;
+	font-variant: small-caps;
+}
+
+.experience h4{
+	color: #410202;
+	font-variant: small-caps;
+}
+
+.experience h1:after {
+	content: '';
+    display: block;
+    background: #410202;
+    height: 2px;
+    max-width: 125px;
+    width: 100%;
+    margin: 20 auto;
+}
+
+.experience ul{
+	line-height: 30px;
+	color: #012727;
+	list-style-type: none;
+	padding-bottom: 50px;
+}
+
+.experience li{
+	padding-bottom:10px;
+}

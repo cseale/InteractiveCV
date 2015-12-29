@@ -142,3 +142,11 @@ section .column {
 section .column p{
 	padding:10px;
 }
+
+.experience p, .experience ul{
+	text-align: left;
+}
+
+.experience ul{
+	list-style-type: square;
+}

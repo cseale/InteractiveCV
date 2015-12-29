@@ -1,8 +1,6 @@
 <html>
 <head>
 	<link type="text/css" href="/stylesheets/main.css" rel="stylesheet"/>
-	<link type="text/css" href="/stylesheets/summary.css" rel="stylesheet"/>
-	<link type="text/css" href="/stylesheets/experience.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -10,32 +8,32 @@
 		<div class="contact-me-bar"><a href="mailto:colm369@hotmail.com" target="_top">send me an e-mail</a></div>
 		<div class="menu">
 			<h6 class="menu-header">Interative CV</h6>
-			<ul class="menu-options">
-				<li><a>Who is Colm Seale?</a></li>
-				<li><a>What are his skills?</a></li>
-				<li><a>What is his experience?</a></li>
-				<li><a>Where did he learn stuff?</a></li>
-				<li><a>Look how nice he is!</a></li>
-				<li><a>Other things about him</a></li>
+			<ul class="menu-options scrollify">
+				<li><a href="#summary">Who is Colm Seale?</a></li>
+				<li><a href="#skillz">What are his skills?</a></li>
+				<li><a href="#experience">What is his experience?</a></li>
+				<li><a href="#education">Where did he learn stuff?</a></li>
+				<li><a href="#volunteering">Look how nice he is!</a></li>
+				<li><a href="#other-stuff">Other things about him</a></li>
 			</ul>
 		</div>
 		<div class="details">
-			<section class="summary">
+			<section class="summary" id="summary">
 				<img src="/images/my-dumb-face.png" class="img-circle">
 				<h1>Colm Seale</h1>
 				<h4>Software Engineer | Certified Scrum Master | Kind of a Nerd</h4>
-				<p class="summary-paragraph">Hiya! I'm Colm, a Software Enginner/Certified Scrum Master currently working on a distributed agile team based in the US, Ireland and China creating DaaS and Reporting Web Applications. I have about 4 years experience developing web applications through all stages of the Software Development Life Cycle from initial project conception / R&D prototyping right through to end customer delivery, adoption and maintenance.</p>
+				<p class="summary-paragraph">Hiya! I'm Colm, a Software Enginner/Certified Scrum Master currently working on a distributed agile team based in the US, Ireland and China creating DaaS and Reporting Web Applications. I have about 4.5 years experience developing web applications through all stages of the Software Development Life Cycle from initial project conception / R&D prototyping right through to end customer delivery, adoption and maintenance.</p>
 			</section>
-			<section class="skillz">
+			<section class="skillz" id="skillz">
 				<h1>Skillz</h1>
 				<div class="column">
 					<img src="/images/some-code.png">
-					<h4>Front End</h4>
+					<h4>Web Development</h4>
 					<p>HTML5, AngularJS, Backbone, Bootstrap, CSS, LESS, Grunt, Bower, Yeoman, NodeJS, NPM</p>
 				</div>
 				<div class="column">
 					<img src="/images/middle-tier-is-like-good-jam.png">
-					<h4>Middle Tier</h4>
+					<h4>Back-End Services</h4>
 					<p>Java, REST, HATEOAS, OData, Spring Technologies like Spring Boot, Spring Cloud, Spring Data REST, Spring Batch and more. Small experience with NodeJS, Express, MongoDB, Spring XD, Hadoop</p>
 				</div>
 				<div class="column">
@@ -50,7 +48,7 @@
 				</div>
 
 			</section>
-			<section class="experience">
+			<section class="experience" id="experience">
 				<h1>Experience</h1>
 				<h4>Fidelity Investments (Senior Software Engineer | Scrum Master)</h4>
 				<h4>Sept 2012 - Present</h4>
@@ -80,18 +78,19 @@
 				</ul>
 
 			</section>
-			<section class="education">
+			<section class="education" id="education">
 				<h1>Education</h1>
 			</section>
-			<section class="volunteering">
+			<section class="volunteering" id="volunteering">
 				<h1>Volunteering</h1>
 			</section>
-			<section class="other-stuff">
+			<section class="other-stuff" id="other-stuff">
 				<h1>Other Stuff</h1>
 			</section>
 		</div>
 	</div>
 
+	<script src="/javascripts/scrollspy.js"></script>
 	<script src="/javascripts/app.js"></script>
 </body>
 

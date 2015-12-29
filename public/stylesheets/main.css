@@ -71,6 +71,13 @@ body {
     font-variant: small-caps;
 }
 
+section:nth-child(even){
+		background-color: #eee3e3;
+
+}
+section:nth-child(odd){
+		background-color: #fff;
+}
 
 
 a {

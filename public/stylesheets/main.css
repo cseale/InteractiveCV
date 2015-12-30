@@ -9,12 +9,13 @@
 body {
   font-family:verdana;
   margin: 0px;
+  overflow: hidden;
 }
 
 .container{
 	height:auto;
+	overflow: hidden;
 }
-
 .menu{
 	border-right: 2px solid #d38d00;
 	position:absolute;
@@ -106,7 +107,7 @@ section h1:after {
 }
 
 section:nth-child(even){
-		background-color: #eee3e3;
+		background-color: #e3e3ee;
 
 }
 
